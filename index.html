@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comunidad de Mujeres Ingenieras</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2e0e6a93f.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f8f1ff, #efe2fa);
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #5a2d8f;
+      font-size: 2.4em;
+      margin-bottom: 30px;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background-color: #f3e8ff;
+      border-left: 5px solid #7a3db8;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(122, 61, 184, 0.1);
+      padding: 20px;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      color: #5a2d8f;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    section h2 {
+      color: #5a2d8f;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .collage-item {
+      height: 150px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .collage-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .registration-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .registration-buttons a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #7a3db8;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    .registration-buttons a:hover {
+      background-color: #5a2d8f;
+    }
+
+    .registration-buttons a i {
+      font-size: 1.2em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .contact-info {
+      margin-top: 50px;
+      text-align: center;
+      background-color: #f3e8ff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(122, 61, 184, 0.1);
+    }
+
+    .contact-info h2 {
+      color: #5a2d8f;
+    }
+
+    .contact-info p {
+      font-size: 1.1em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Comunidad de Mujeres Ingenieras</h1>
+
+    <div class="card-container">
+      <div class="card">
+        <h2>Contexto</h2>
+        <p>Estudios analizan la desigualdad de género en STEM. Según la UNESCO, solo el 35% de quienes cursan estudios superiores en esta área son mujeres, lo que evidencia una brecha significativa que limita la diversidad y el potencial de innovación en campos cruciales para el futuro.</p>
+      </div>
+      <div class="card">
+        <h2>Nuestra Misión</h2>
+        <p>El objetivo es crear una comunidad que empodere a niñas y jóvenes en tecnología, brindándoles apoyo, motivación y desarrollo de habilidades para que alcancen sus metas y fomenten la diversidad en STEM. Buscamos ser un espacio seguro e inspirador donde puedan conectar, aprender y crecer juntas.</p>
+      </div>
+      <div class="card">
+        <h2>Nuestra Visión</h2>
+        <p>La visión es empoderar a mujeres en tecnología e ingeniería, incentivando su estudio y creando una comunidad inclusiva que fomente el aprendizaje, la innovación y el desarrollo de habilidades en STEM. Aspiramos a construir un futuro donde las mujeres sean líderes y referentes en todos los ámbitos de la ciencia y la tecnología.</p>
+      </div>
+    </div>
+
+    <section>
+      <h2>Actividades Realizadas</h2>
+      <p style="text-align: center;">Aquí se muestra un pequeño collage de algunas de las actividades que hemos llevado a cabo como comunidad.</p>
+      <div class="collage">
+        <div class="collage-item">
+          <img src="https://6812d6d2805cfc9c2a196729--mujeing.netlify.app/Act1.jpg" alt="Actividad 1" />
+        </div>
+        <div class="collage-item">
+          <img src="https://6812d6d2805cfc9c2a196729--mujeing.netlify.app/Act2.jpg" alt="Actividad 2" />
+        </div>
+        <div class="collage-item">
+          <img src="https://6812d6d2805cfc9c2a196729--mujeing.netlify.app/Act5.jpg" alt="Actividad 3" />
+        </div>
+        <div class="collage-item">
+          <img src="https://6812d6d2805cfc9c2a196729--mujeing.netlify.app/Act3.jpg" alt="Actividad 4" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Únete a Nuestra Comunidad</h2>
+      <p style="text-align: center;">¿Eres mujer y te interesa la ingeniería o la tecnología? ¿Quieres ser parte de una red de apoyo, aprendizaje y crecimiento? ¡Regístrate hoy mismo!</p>
+      <div class="registration-buttons">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOrb6DdVRyM94lhteqATKBih6jh7M4xxaa1N1zZTW_94bizw/viewform" target="_blank"><i class="fas fa-user-plus"></i> Quiero Registrarme</a>
+        <a href="#"><i class="fas fa-info-circle"></i> Más Información</a>
+      </div>
+    </section>
+
+    <!-- Información de contacto -->
+    <section class="contact-info">
+      <h2>Información de Contacto</h2>
+      <p><strong>Dirección:</strong> Avenida Ex Hacienda Kalá, San Francisco de Campeche, Campeche, CP. 24084</p>
+      <p><strong>Teléfono:</strong> 996 113 94 43</p>
+      <p><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5c6cac8d0cbccc1c4c1c3c1cce5c2c8c4ccc98bc6cac8">[email&#160;protected]</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Comunidad de Mujeres Ingenieras. Todos los derechos reservados.</p>
+  </footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
